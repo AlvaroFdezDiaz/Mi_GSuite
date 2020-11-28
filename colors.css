@@ -1,0 +1,183 @@
+body
+{
+background-image:url("wallpaper.jpg");
+background-repeat:repeat;
+background-position:center top;
+background-size: cover;
+}
+
+#texto1 {
+    font-family: "Helvetica",Arial,Helvetica,sans-serif;
+    font-size: 15px;
+    line-height: 46px;
+    color: #FFFFFF;
+    display:inline-block;
+		position:relative;
+		margin-top:-40px;
+		overflow:hidden;
+		font-weight:bold;
+}
+
+#texto1b {
+    font-family: "Helvetica",Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display:inline-block;
+		position:relative;
+		margin-top:-48px;
+		overflow:hidden;
+		font-weight:normal;
+}
+
+#texto2 {
+    font-family: "Helvetica",Arial,Helvetica,sans-serif;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+    font-weight:normal;
+}
+
+#texto3 {
+    font-family: "Helvetica",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 19.5px;
+    line-height: 36px;
+    color: #FFFFFF;
+    font-weight:normal;
+}
+
+#texto4 {
+    font-family: "Lato",Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+    color: #9B9B9B;
+    font-weight:20;
+}
+
+
+@font-face {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Helvetica"), local("ComingSoon"), url("https://themes.googleusercontent.com/static/fonts/comingsoon/v4/myblyOycMnPMGjfPG-DzP4bN6UDyHWBl620a-IRfuBk.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Helvetica"), local("OpenSans"), url("https://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Helvetica"), local("Helvetica"), url("https://www.icetheme.com/templates/ice_v6/fonts/Aaargh-webfont.woff") format("woff");
+}
+
+.celda01 {
+	height:120px;
+}
+
+.celda02 {
+	height:50px;
+}
+
+.category_image {
+			background-color:transparent;
+			margin:1px 1px 50px ;
+			text-align:center;
+			}
+
+			.category_image a {
+				display:inline-block;
+				position:relative;
+				margin-top:-3px;
+				overflow:hidden;
+				border-radius:120px 120px;
+				box-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+				-webkit-transition:all .2s ease-out;
+				-moz-transition:all .2s ease-out;
+				-o-transition:all .2s ease-out;
+				transition:all .2s ease-out;
+				}
+
+			/*
+      .category_image:hover a {
+				-webkit-transform:scale(1.25) rotate(731deg);
+				-moz-transform:scale(1.25) rotate(731deg);
+				-o-transform:scale(1.25) rotate(731deg);
+				transform:scale(1.25) rotate(731deg);
+				}
+        */
+        .category_image:hover a {
+          -webkit-transform:scale(1.25);
+          -moz-transform:scale(1.25);
+          -o-transform:scale(1.25);
+          transform:scale(1.15);
+          }
+
+				.category_image a img {
+					width:90px;
+					height:90px;
+					border-radius:100%;
+ 					}
+
+.category_image2 {
+			background-color:transparent;
+			margin:1px 80px 70px;
+			text-align:center;
+			}
+
+			.category_image2 a {
+				display:inline-block;
+				position:relative;
+				margin-top:-3px;
+				overflow:hidden;
+				border-radius:120px 120px;
+				box-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+				-webkit-transition:all .2s ease-out;
+				-moz-transition:all .2s ease-out;
+				-o-transition:all .2s ease-out;
+				transition:all .2s ease-out;
+				}
+
+			/*
+      .category_image2:hover a {
+				-webkit-transform:scale(1.25) rotate(1deg);
+				-moz-transform:scale(1.25) rotate(1deg);
+				-o-transform:scale(1.25) rotate(1deg);
+				transform:scale(1.25) rotate(1deg);
+				}
+        */
+        .category_image2:hover a {
+          -webkit-transform:scale(1.25);
+          -moz-transform:scale(1.25);
+          -o-transform:scale(1.25);
+          transform:scale(1.15);
+          }
+				.category_image2 a img {
+					width:60px;
+					height:60px;
+					border-radius:100%;
+					}
+
+.google_image:hover a {
+				display:inline-block;
+				position:center-bottom;
+				overflow:hidden;
+				border-radius:1px 1px;
+				-webkit-transition:all .2s ease-out;
+				-moz-transition:all .2s ease-out;
+				-o-transition:all .2s ease-out;
+				transition:all .2s ease-out;
+				-webkit-transition:all .2s ease-in;
+				-moz-transition:all .2s ease-in;
+				-o-transition:all .2s ease-in;
+				transition:all .2s ease-in;
+				-webkit-transform:scale(1.05);
+				-moz-transform:scale(1.05);
+				-o-transform:scale(1.05);
+				transform:scale(1.05);
+				}
